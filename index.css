@@ -1,0 +1,99 @@
+/* pseudo selectors
+floats
+padding
+
+classes/ids
+*/
+
+h1 {
+  color: yellow;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h2, h3 {
+  color: black;
+  font-family: sans-serif;
+}
+
+#Body {
+background-color: black;
+}
+
+/* edit size of images */
+
+/*#chargers_logo {
+  width="200" height="40"
+
+}*/
+
+/* float nick and sergio sections to make columns */
+#sergio {
+  background: rgb(71, 178, 212);
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  left: 40px;
+  width: 40%;
+  padding: 20px;
+  height: 440px;
+}
+
+#sergio:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+#nick {
+  background: rgb(71, 178, 212);
+  float: right;
+  font-family: 'Ubuntu', sans-serif;
+  position: relative;
+  left: -40px;
+  width: 40%;
+  padding: 20px;
+  height: 440px;
+  margin-bottom: 30px;
+}
+
+#nick:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* horizontal rule (line) just for looks */
+#hr {
+  clear: both;
+  opacity: .8;
+  width: 95%;
+  padding-left: 40px;
+
+}
+
+#learning_section {
+  background: rgb(71, 178, 212);
+  margin-top: 20px;
+  margin-left: 30px;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 22px;
+  left: 40px;
+  width: 95%;
+  padding: 10px;
+  height: 350px;
+  clear:both;
+}
+
+
+/* pseudo selectors */
+a:hover {
+  color: green;
+  font-size: 20pt;
+}
+
+a:visited {
+  color: purple;
+  font-size: 8pt;
+}
